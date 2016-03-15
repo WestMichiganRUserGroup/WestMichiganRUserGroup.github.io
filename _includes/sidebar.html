@@ -1,0 +1,28 @@
+
+<div><br><a href="http://annarborrusergroup.github.io"><img src="{{ site.url }}/images/Rlogo.png" style="max-height: 100px; max-width: 100px;"></a></div>
+<br><p>The West Michigan R User Group is a local community dedicated to sharing knowledge and experience in solving data analysis and statistical problems using R.</p><br>
+
+<strong>WMRUG</strong>
+{% assign pages_list = site.pages %}
+{% for node in pages_list %}
+  {% if node.title != null %}
+    {% if node.layout == "page" %}
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<a class="sidebar-nav-item" href="http://www.meetup.com/West-Michigan-R-Users-Group/">Meetup</a>
+<a class="sidebar-nav-item" href="https://github.com/AnnArborRUserGroup">GitHub</a>
+
+<navh><strong>R Links</strong></navh>
+<a class="sidebar-nav-item" href="https://www.r-project.org">R Project</a>
+<a class="sidebar-nav-item" href="https://cran.r-project.org">CRAN</a>
+<a class="sidebar-nav-item" href="https://www.rstudio.com">RStudio</a>
+<a class="sidebar-nav-item" href="http://www.revolutionanalytics.com">Revolution Analytics</a>
+
+<navh><strong>Our Friends</strong></navh>
+<a class="sidebar-nav-item" href="http://www.meetup.com/Ann-Arbor-Detroit-NLPers-A2D-NLP/">Ann Arbor/Detroit NLPers</a>
+<a class="sidebar-nav-item" href="http://www.meetup.com/Machine-Learning-Data-Science-and-Industry/">Machine Learning: Data Science and Industry</a>
+<a class="sidebar-nav-item" href="http://www.meetup.com/Predictive-Analytics-S-E-Michigan/">Predictive Analystics - S.E. Michigan</a>
+<a class="sidebar-nav-item" href="http://www.meetup.com/Lansing-Area-R-Users-Group/">Lansing Area R Users Group</a>
