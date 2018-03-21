@@ -27,7 +27,7 @@ UseR's, join us 6pm March 15 for pizza, networking and talk about R in Room 121E
 
 - Dave Kendall (Advanced Radiology Services) - Word Clouds
 
-#### Use Yase Talks
+#### Use Case Talks
 
 - Aaron Clark (Advanced Radiology Services) - My First Shiny App
 - Dave Zeitler (GVSU/FS) - RStudio Projects
