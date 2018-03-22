@@ -4,14 +4,11 @@ title: Upcoming Events
 permalink: /upcoming/
 ---
 
-Upcoming Events
-================
-
 Events always take place on the third Tuesday of the month at 6pm. We usually meet at Grand Valley State University's downtown campus, but check the schedule to confirm!
 
 ## April 2018
 
-|            |              |
+| Meeting Details           |
 |:-----------|:-------------|
 |**Date**    |April 17, 2018|
 |**Time**    |18:00         |
@@ -29,7 +26,7 @@ By Derek Nedveck
 
 ## May 2018
 
-|            |              |
+| Meeting Details           |
 |:-----------|:-------------|
 |**Date**    |May 15, 2018  |
 |**Time**    |18:00         |
@@ -43,7 +40,7 @@ By Derek Nedveck
 
 ## June 2018
 
-|            |              |
+| Meeting Details           |
 |:-----------|:-------------|
 |**Date**    |June 19, 2018 |
 |**Time**    |18:00         |
