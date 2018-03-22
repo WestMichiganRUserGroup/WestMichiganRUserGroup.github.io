@@ -8,7 +8,7 @@ Events always take place on the third Tuesday of the month at 6pm. We usually me
 
 ## April 2018
 
-| Meeting Details           |
+| Meeting Details          ||
 |:-----------|:-------------|
 |**Date**    |April 17, 2018|
 |**Time**    |18:00         |
