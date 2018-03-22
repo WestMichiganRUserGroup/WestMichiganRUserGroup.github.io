@@ -2,13 +2,9 @@
 title: West Michigan R User Group
 email: WestMichiganRUsersGroup@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a group for anyone interested in R, the open source statistical 
-  software, and its associated tools and variations such as 
-  RStudio, ShinyR, Revolutions R Open, SparkR and others. 
-  R is one of the fastest growing tools in the data scientist's 
-  toolbox providing visualization and statistical analysis capability. 
-  We will discuss R programming, statistical techniques using R, 
-  finding help with R, R packages (add-ons) and more.
+  This group gets together monthly to discuss R programming, 
+  statistical techniques using R, finding help with R, R packages, and more.
+  We meet up every third Tuesday of the month at 6pm.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "WestMichiganRUserGroup.github.io" # the base hostname & protocol for your site
 github_username:  WestMichiganRUserGroup
