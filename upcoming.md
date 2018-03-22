@@ -26,7 +26,7 @@ By Derek Nedveck
 
 ## May 2018
 
-| Meeting Details           |
+| Meeting Details          ||
 |:-----------|:-------------|
 |**Date**    |May 15, 2018  |
 |**Time**    |18:00         |
@@ -40,7 +40,7 @@ By Derek Nedveck
 
 ## June 2018
 
-| Meeting Details           |
+| Meeting Details          ||
 |:-----------|:-------------|
 |**Date**    |June 19, 2018 |
 |**Time**    |18:00         |
