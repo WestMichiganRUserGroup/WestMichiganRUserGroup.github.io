@@ -18,11 +18,17 @@ Events always take place on the third Tuesday of the month at 6pm. We usually me
 
 ### Presentations
 
-#### *Bayesian Statistics in a Frequentist World* (Working Title)  
+#### *Exploring Bayesian Statistics as a Frequentist*  
 
 By Derek Nedveck
 
-[Description coming soon]
+I learned statiatics in a frequentist framework, and now I'm looking to learn Bayesian methods. I've mostly encountered Bayesian statistics in the form of learning about Bayes theorem, and then calculating conditional probabilities, but I never really approaching the statistical tests that I do in a frequentist framework. 
+
+The talk will focus on answering three questions: 
+
+- What are credible intervals?
+- How do I do hypothesis tests in Bayesian stats?
+- How do linear models work inside a Bayesian framework?
 
 ------------------------------------
 
