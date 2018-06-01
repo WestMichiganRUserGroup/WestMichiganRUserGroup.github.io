@@ -6,11 +6,11 @@ permalink: /upcoming/
 
 Events always take place on the third Tuesday of the month at 6pm. We usually meet at Grand Valley State University's downtown campus, but check the schedule to confirm!
 
-## May 2018
+## June 2018
 
 | Meeting Details          ||
 |:-----------|:-------------|
-|**Date**    |May 15, 2018  |
+|**Date**    |June 19, 2018 |
 |**Time**    |18:00         |
 |**Location**|DeVos 309E<br>Grand Valley State University: Pew Campus<br>401 Fulton St W, Grand Rapids, MI 49504|
 
@@ -18,24 +18,14 @@ Events always take place on the third Tuesday of the month at 6pm. We usually me
 
 ### Presentations
 
-#### *Making the LINCS: Connecting gene mutations to new treatments with help from R and Bioconductor*
+#### *Creating R packages using RStudio and GitHub*
 
-by Eric Kort
+by Randall Pruim
 
-Large repositories of data describing how both drugs and disease affect cells have opened a new approach to medicine: matching diseases with treatments on the genetic level.  In this talk, we will hear how existing and new tools built with R are being used to mine the LINCS data repository created by the National Institutes of Health to give new hope to patients with genetically based diseases.
+If you use R, you should be making R packages, and not just for CRAN-released, publicly available packages that will change the world.  Packages are a useful way to organize your own private work as well.  (If you have ever used the `source()` command, you should probably be writing a package.)
 
-------------------------------------
+The combination of GitHub and RStudio make it particularly easy to create R packages and simultaneously promote good coding habits.  We’ll demonstrate how to create a new package from scratch, taking advantage of devtools and RStudio to handle some of the initial boiler plate work, roxygen2 to handle documentation of package objects, testthat for unit testing, and git/GitHub for version control, issue tracking,  and dissemination.  Along the way, you might learn some interesting things about R and RStudio as well.
 
-## June 2018
-
-| Meeting Details          ||
-|:-----------|:-------------|
-|**Date**    |June 19, 2018 |
-|**Time**    |18:00         |
-|**Location**|TBD           |
-
-### Presentations
-
-[Coming soon]
+If you want to follow along and build your own package, bring a laptop with RStudio installed and create a GitHub account prior to the meeting.
 
 ------------------------------------
