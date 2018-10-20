@@ -26,7 +26,7 @@ It's easy! Just present a short 10 minute talk about a function at a West Michig
 1. Show us its usage.
 1. Show us a use-case or two where you have used it.
 
-Email your presentation to the [West Michigan R User's Group](mailto:WestMichiganRUsersGroup@googlegroups.com) with the following information:
+Email your presentation to the [West Michigan R User's Group](mailto:WestMichiganRUserGroup@googlegroups.com) with the following information:
 
 - Your name
 - Which month you would like to present
