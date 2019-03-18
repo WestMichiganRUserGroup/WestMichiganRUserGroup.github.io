@@ -17,7 +17,7 @@ categories: jekyll update
 
 ### Presentations
 
-#### *Tidy Modeling with modelr and brom*
+#### *Tidy Modeling with modelr and broom*
 
 By Dr. David Zeitler
 
