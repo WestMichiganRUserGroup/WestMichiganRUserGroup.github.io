@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "MEETING ANNOUNCEMENT: April 2019"
-date:   2019-04-08
+date:   2019-04-16
 author: The WMRUG organizers
 categories: jekyll update
 ---
 
 | Meeting Details           ||
 |:-----------|:--------------|
-|**Date**    |April 08, 2019 |
+|**Date**    |April 16, 2019 |
 |**Time**    |18:00          |
 |**Location**|DeVos 225E<br>Grand Valley State University: Pew Campus<br>401 Fulton St W, Grand Rapids, MI 49504|
 |**Parking** |Parking in DeVos ramp - Tell attendant you're with WMRUG|
