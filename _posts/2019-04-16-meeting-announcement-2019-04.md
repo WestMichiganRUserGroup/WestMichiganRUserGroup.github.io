@@ -19,9 +19,9 @@ categories: jekyll update
 
 #### *Graph and workflow plotting with R*
 
-By [Derek Nedveck](dnedveck.com)
+By [Derek Nedveck](http://dnedveck.com)
 
-Over at my place of employment, we've been working on defining our process / workflow. Part of this work is creating a visual representation of our workflow. Currently the visualization is done in Visio (or some other gross, non-scriptable program), but I figured this would be better suited to automated means, especially when I found out that our dept was already using something called a [RACI diagram](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix). So this is my excuse to take a naive dive into workflow plotting.
+Over at my place of employment, we've been working on defining our process / workflow. Part of this work is creating a visual representation of our workflow. Currently the visualization is done in Visio (or some other gross, non-scriptable program), but I figured this would be better suited to automated means, especially when I found out that our dept was already using something called a [RACI table](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix). So this is my excuse to take a naive dive into workflow plotting.
 
 I'm likely going to be getting into the `grid` graphics engine, and `DiagrammeR` ... or not, the only thing that's for sure is that I'll have gifs. 
 
