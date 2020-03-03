@@ -17,20 +17,18 @@ Keep an eye on our blog for meeting anouncements and presentation abstracts.
 
 ## Upcoming Presentations
 
-### January 2020
+### March 2020
 
 | Meeting Details           ||
 |:-----------|:--------------|
-|**Date**    |January 21, 2020|
+|**Date**    |March 17, 2020|
 |**Time**    |18:00          |
 |**Location**|DeVos 209E<br>Grand Valley State University: Pew Campus<br>401 Fulton St W, Grand Rapids, MI 49504|
 |**Parking** |Parking in DeVos ramp - Tell attendant you're with WMRUG|
 
-#### Data Science in Manufacturing Applications
 
-Manufacturing has a rich history of using statistics in monitoring processes, quality control, and improve the manufacturing efficiencies. This gave a lead to manufacturing industries to use this data and leverage different levels of analytics to expand the scope to other applications. In this talk we will discuss how we turned our organization to a data-driven organization, by defining the five levels of analytics and how we used it to design our data science journey (or road map), setting up a team for a data science project, setting up data science infrastructure (R, Docker, Rancher), and a brief overview of various data science applications in manufacturing such as predictive maintenance, process quality prediction, quality control through vision AI, safety improvement using NLP, and NLP on historical maintenance records to define new projects. For each of the applications, we will discuss R packages used, the best method to automating R scripts, and the workflow between R and other applications. At the end of this talk, we will also discuss FAQ such as business decisions, deployment, auditing, and many as such.
+#### Big Data Hubris: Limitations in Aggregating Uber and Google Data
 
-#### About the Presenter
+_By Thomas Weinandy, Ph.D. Candidate in Applied Economics at Western Michigan University_
 
-Dr. Nagdev Amruthnath currently works as Data Scientist III at DENSO North America. He has earned his Ph.D. and Master’s in Industrial Engineering Department, Western Michigan University (WMU), and a Bachelor's degree in Information Science and Engineering from Visvesvaraya Institute of Technology, Karnataka, India. He has four years of experience working in the manufacturing industry, specializing in the implementation of lean manufacturing, JIT technologies, and production system, three years of full-stack data science experience in manufacturing and undergraduate and graduate teaching experience. He has also authored in journal and conference proceeding publications in production flow analysis, ergonomics, machine learning, and wireless sensor networks. Currently, his research focus is on developing new machine learning models and AI technologies for manufacturing applications. Nagdev continues to serve as a reviewer of scholarly journals, which includes the Journal of Electrical Engineering, IEEE Transactions on Reliability, and Machine Learning and Applications: An International Journal. He has also open-sourced all his projects, including various R-packages on GitHub.
-
+Big data hubris is the belief that big data sets are a substitute for, rather than a supplement to, traditional data collection and analysis. Thomas will share how his understanding of big data has evolved during his economics research and why 273 million Uber trips is not considered “big” enough. He will also discuss lessons learned from the rise and fall of Google Flu Trends.
