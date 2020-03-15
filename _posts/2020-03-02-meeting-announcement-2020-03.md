@@ -18,6 +18,24 @@ categories: jekyll update
 We are excited to host another **joint meeting** with our partners at
 [Data Science and Analytics West Michigan](https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/269166865/).
 
+This meeting will be held on WebEx. This is our first time using this technology to host our meeting, so please bear with us :-).
+
+Join by clicking on the link below. If you’re not familiar with WebEx, it would be good to try joining early to get things setup. Note there is an audio only phone line if all you want to do is listen in. Within the WebEx environment we will be able to share video, computer screen, post comments and chat.
+
+#### JOIN WEBEX MEETING
+
+<https://dwz-83.my.webex.com/dwz-83.my/j.php?MTID=m6c986929101edb19bc2ad861fdf82256>
+
+Meeting number (access code): 794 328 892
+
+
+#### JOIN BY PHONE
+
++1-408-418-9388 United States Toll
+
+[Tap here](tel:%2B1-408-418-9388,,*01*794328892%23%23*01*) to call
+(mobile phones only, hosts not supported).
+
 ### Big Data Hubris: Limitations in Aggregating Uber and Google Data
 
 _By Thomas Weinandy, Ph.D. Candidate in Applied Economics at Western Michigan University_
