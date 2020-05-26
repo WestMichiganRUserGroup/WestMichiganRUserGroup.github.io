@@ -19,11 +19,11 @@ We are excited to co sponsor another **joint meeting** with our partners at
 [Data Science and Analytics West Michigan](https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/269166865/)
 and  [Machine Learning GR](https://www.meetup.com/GRAIML/).
 
-RSVP and details at https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/270553236/.
+RSVP and details at [Meetup](https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/270553236/).
 
 #### JOIN on YouTube Live
 
-Tune in to the presentation on YouTube Live at https://youtu.be/fCWGevB366g.
+Tune in to the presentation on [YouTube Live](https://youtu.be/fCWGevB366g).
 
 Join in the discussion via [Slack](https://join.slack.com/t/bdieventsworkspace/shared_invite/zt-en211de9-6NnNMMCpZvGElZPcSK6UFQ).
 
@@ -32,7 +32,7 @@ Join in the discussion via [Slack](https://join.slack.com/t/bdieventsworkspace/s
 Hosted by
 Elliott J. R. Church
 
-Presenter: Michael Bloem, PhD, will explain and demonstrate the Kedro & MLflow
+__Presenter__: Michael Bloem, PhD, will explain and demonstrate the Kedro & MLflow
 machine-learning frameworks.
 
 
@@ -41,8 +41,8 @@ machine-learning frameworks.
 source software packages that can make the development & deployment of
 machine learning models (and the data pipelines that support them) more
 robust, reproducible, & collaborative. In this talk, I will introduce
-these software packages and describe how they can provide [complementary
-functionality](https://medium.com/@QuantumBlack/deploying-and-versioning-data-
+these software packages and describe how they can provide 
+[complementary functionality](https://medium.com/@QuantumBlack/deploying-and-versioning-data-
 pipelines-at-scale-942b1d81b5f5). I will then demonstrate their use from
 soup to nuts (e.g., from a CSV or database to an API model deployment).
 Time permitting, I will discuss how pipelines in Python's [scikit-learn
