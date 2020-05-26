@@ -25,7 +25,7 @@ RSVP and details at https://www.meetup.com/Data-Science-and-Analytics-West-Michi
 
 Tune in to the presentation on YouTube Live at https://youtu.be/fCWGevB366g.
 
-Join in the discussion via Slack at https://join.slack.com/t/bdieventsworkspace/shared_invite/zt-en211de9-6NnNMMCpZvGElZPcSK6UFQ.
+Join in the discussion via [Slack](https://join.slack.com/t/bdieventsworkspace/shared_invite/zt-en211de9-6NnNMMCpZvGElZPcSK6UFQ).
 
 ### Improved Machine Learning with Kedro & MLflow
 
@@ -36,19 +36,17 @@ Presenter: Michael Bloem, PhD, will explain and demonstrate the Kedro & MLflow
 machine-learning frameworks.
 
 
-Kedro (https://kedro.readthedocs.io/en/latest/index.html) and MLflow
-(https://www.mlflow.org/docs/latest/index.html) are relatively new open
+[Kedro](https://kedro.readthedocs.io/en/latest/index.html) and 
+[MLflow](https://www.mlflow.org/docs/latest/index.html) are relatively new open
 source software packages that can make the development & deployment of
 machine learning models (and the data pipelines that support them) more
 robust, reproducible, & collaborative. In this talk, I will introduce
-these software packages and describe how they can provide complementary
-functionality
-(https://medium.com/@QuantumBlack/deploying-and-versioning-data-
+these software packages and describe how they can provide [complementary
+functionality](https://medium.com/@QuantumBlack/deploying-and-versioning-data-
 pipelines-at-scale-942b1d81b5f5). I will then demonstrate their use from
 soup to nuts (e.g., from a CSV or database to an API model deployment).
-Time permitting, I will discuss how pipelines in Python's scikit-learn
-package
-(https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.
+Time permitting, I will discuss how pipelines in Python's [scikit-learn
+package](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.
 Pipeline.html) can provide additional complementary functionality that
 facilitates model deployment.
 
