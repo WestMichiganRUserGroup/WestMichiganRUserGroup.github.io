@@ -4,6 +4,8 @@ title: Forum
 permalink: /forum/
 ---
 
+To join the forum, search for **West Michigan R User Group** on [Google Groups](https://groups.google.com/).
+
 <div>
 <iframe id="forum_embed"
   src="javascript:void(0)"
@@ -19,5 +21,3 @@ permalink: /forum/
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script> 
 </div>
-
-To join the forum, search for **West Michigan R User Group** on [Google Groups](https://groups.google.com/).
