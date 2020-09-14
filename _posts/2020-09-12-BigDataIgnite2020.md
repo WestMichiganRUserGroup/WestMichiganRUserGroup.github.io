@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Big Data Ignite 2020"
-date: 2020-08-12
+date: 2020-09-12
 author: D Zeitler
 categories: jekyll update
 ---
