@@ -16,5 +16,5 @@ The Big Data Ignite 2021 Online Conference will feature industry & academic lead
 Submit your proposed talk at [the Big Data Ignite website speaker link](https://bigdataignite.org/become-a-speaker/). If there are enough interesting proposals, we may even extend the series into November!
 
 For additional information contact: 
-David Zeitler <david@bigdataignite.org> - Program Co-Chair
-Randall Pruim <randall@bigdataignite.org> - Program Co-Chair
+* David Zeitler <david@bigdataignite.org> - Program Co-Chair
+* Randall Pruim <randall@bigdataignite.org> - Program Co-Chair
