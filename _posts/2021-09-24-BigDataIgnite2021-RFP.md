@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Big Data Ignite 2021: Leading Out of Uncertainty"
+title: "Big Data Ignite 2021: Request for Proposals"
 date: 2021-09-24
 author: D Zeitler
 categories: jekyll update
