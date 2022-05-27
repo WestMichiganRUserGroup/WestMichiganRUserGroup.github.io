@@ -4,12 +4,7 @@ title: Upcoming Events
 permalink: /upcoming/
 ---
 
-Events always take place on the third Tuesday of the month at 6pm.
-
-**Due to the emerging public health concern regarding COVID-19, we will be
-practicing social distancing. This means that all meetings will occur virtually
-until further notice. See meeting announcement posts for details. Please post
-any questions, comments, or suggestions on the forum.**
+Events will take place on the second Tuesday of the month at 6pm.
 
 Keep an eye on our blog for meeting anouncements and presentation abstracts.
 
@@ -18,18 +13,47 @@ Keep an eye on our blog for meeting anouncements and presentation abstracts.
 
 ## Upcoming Presentations
 
-### March 2020
+### June 2022
 
 | Meeting Details           ||
 |:-----------|:--------------|
-|**Date**    |March 17, 2020 |
+|**Date**    |June 14, 2022  |
 |**Time**    |18:00          |
-|**Location**|Virtual        |
-|**Parking** |None           |
+|**Location**|DeVos 107D     |
+|**Parking** |DeVos lots     |
 
 
-#### Big Data Hubris: Limitations in Aggregating Uber and Google Data
+### Visualizations for Non-trivial Linear Models
 
-_By Thomas Weinandy, Ph.D. Candidate in Applied Economics at Western Michigan University_
+Classroom examples and problems for most users of statistics seldom go
+beyond a simple two factor fixed effects linear model while real
+research is more often a mixture of fixed and random effects as well
+as continuous covariates. Statisticians readily work with these more
+advanced models, but researchers, particularly graduate students
+outside of statistics generally need help understanding what these
+statistical models are telling them. Visualizations greatly aid in
+understanding interactions, fixed versus random effects and the
+interplay between continuous and categorical factors. We will look at
+a couple of examples of models from the GVSU Biomechanics lab and how
+visualizations in R have helped graduate students in the Physical Therapy
+program to understand their data.
 
-Big data hubris is the belief that big data sets are a substitute for, rather than a supplement to, traditional data collection and analysis. Thomas will share how his understanding of big data has evolved during his economics research and why 273 million Uber trips is not considered “big” enough. He will also discuss lessons learned from the rise and fall of Google Flu Trends.
+__Presenter__: David Zeitler, PhD
+
+### July 2022
+
+| Meeting Details           ||
+|:-----------|:--------------|
+|**Date**    |July 12, 2022  |
+|**Time**    |18:00          |
+|**Location**|DeVos 107D     |
+|**Parking** |DeVos lots     |
+
+### August 2022
+
+| Meeting Details           ||
+|:-----------|:--------------|
+|**Date**    |August 9, 2022 |
+|**Time**    |18:00          |
+|**Location**|DeVos 107D     |
+|**Parking** |DeVos lots     |
