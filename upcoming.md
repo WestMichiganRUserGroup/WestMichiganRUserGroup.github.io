@@ -11,7 +11,7 @@ Keep an eye on our blog for meeting anouncements and presentation abstracts.
 *Contact us if you have an idea for a presentation!*
 
 
-## Upcoming Presentations
+# Upcoming Presentations
 
 ### June 2022
 
@@ -20,6 +20,8 @@ Keep an eye on our blog for meeting anouncements and presentation abstracts.
 |**Date**    |June 14, 2022  |
 |**Time**    |18:00          |
 |**Location**|DeVos 107D     |
+|            |Grand Valley State University: Pew Campus |
+|            |401 Fulton St W, Grand Rapids, MI 49504     |
 |**Parking** |DeVos lots     |
 
 
@@ -47,6 +49,8 @@ __Presenter__: David Zeitler, PhD
 |**Date**    |July 12, 2022  |
 |**Time**    |18:00          |
 |**Location**|DeVos 107D     |
+|            |Grand Valley State University: Pew Campus |
+|            |401 Fulton St W, Grand Rapids, MI 49504     |
 |**Parking** |DeVos lots     |
 
 ### August 2022
@@ -56,4 +60,6 @@ __Presenter__: David Zeitler, PhD
 |**Date**    |August 9, 2022 |
 |**Time**    |18:00          |
 |**Location**|DeVos 107D     |
+|            |Grand Valley State University: Pew Campus |
+|            |401 Fulton St W, Grand Rapids, MI 49504     |
 |**Parking** |DeVos lots     |
