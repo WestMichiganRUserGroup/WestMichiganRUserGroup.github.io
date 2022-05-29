@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MEETING ANNOUNCEMENT: June 2022"
-date:   2022-05-29
+date:   2022-05-28
 author: The WMRUG organizers
 categories: jekyll update
 ---
