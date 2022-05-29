@@ -32,7 +32,7 @@ a couple of examples of models from the GVSU Biomechanics lab and how
 visualizations in R have helped graduate students in the Physical Therapy
 program to understand their data.
 
-__Presenter__: David Zeitler, PhD
+__Presenter__: David Zeitler, PhD Foundation Stochastics LLC
 
 
 #### Presenter Bio:
