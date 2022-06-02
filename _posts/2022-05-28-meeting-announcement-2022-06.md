@@ -14,9 +14,7 @@ categories: jekyll update
 |**Parking** |DeVos lot and ramp|
 
 ### GVSU's Statistics department is providing Jimmy Johns. 
-Thanks Paul! Go to the link below by June 8 to RSVP/specify your sandwich order for the meeting. It appears you'll need to be logged into a google account before clicking on the link, at least it did for me. If you have trouble, email me (zeitlerd@mail.gvsu.edu) or Bradford (dykesb@gvsu.edu) and we'll get you signed up.
-
-https://forms.gle/DNXoyWshoizYxoaT6
+Thanks Paul! Go to [this link](https://forms.gle/DNXoyWshoizYxoaT6) by June 8 to RSVP/specify your sandwich order for the meeting. It appears you'll need to be logged into a google account before clicking on the link, at least it did for me. If you have trouble, email me (zeitlerd@mail.gvsu.edu) or Bradford (dykesb@gvsu.edu) and we'll get you signed up.
 
 ## Presentation
 
