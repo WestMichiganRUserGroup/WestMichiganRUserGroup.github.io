@@ -24,7 +24,10 @@ You've been working on a new shiny app for weeks, months, or maybe even years. Y
 
 Shiny developers not tracking usage statistics are simply working in the dark.  As such, this talk with cover various tools that exist to help answer these questions (above), making you a well-informed developer. Specifically this talk will cover adding google analytics (for public apps) or matomo analytics (for private apps), exploring built in RS Connect "instrumentation" tracking, the {shinylogs} package, the {shiny.stats} package, and more.
 
-__Presenter__: Aaron Clark, Principal Data Scientist at Biogen
+__Presenter__: Aaron Clark, Biogen
+
+Aaron is a Senior Data Scientist at Biogen developing R packages and Shiny apps to advance the use of R in clinical trials.
+
 LinkedIn: https://www.linkedin.com/in/dataaaronclark/
 
 
