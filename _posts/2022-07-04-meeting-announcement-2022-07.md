@@ -26,7 +26,7 @@ Shiny developers not tracking usage statistics are simply working in the dark. 
 
 __Presenter__: Aaron Clark, Biogen
 
-Aaron is a Senior Data Scientist at Biogen developing R packages and Shiny apps to advance the use of R in clinical trials.
+Aaron is a  Principal  Data Scientist at Biogen developing R packages and Shiny apps to advance the use of R in clinical trials.
 
 LinkedIn: https://www.linkedin.com/in/dataaaronclark/
 
