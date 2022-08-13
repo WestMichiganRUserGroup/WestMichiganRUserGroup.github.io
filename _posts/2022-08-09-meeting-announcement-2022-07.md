@@ -30,6 +30,8 @@ We hopefully have two presentations, the first is by Andrew Borgman and maybe a 
 
 Do you love R? What about Shiny? Or just the web in general? If so, you may love this not dull discussion of R’s web ecosystem beyond basic Shiny applications. We’ll review exciting extensions to the Shiny ecosystem and check out other non-Shiny web frameworks that have been built with different design philosophies. Whether you are looking for better application styling, improved end-user experience, or are hoping to develop something other than a single-page application within R, this talk may be for you.
 
+[Slides](https://github.com/borgmaan/2022-08-08-wmrug/blob/main/2022-08-08-wmrug.pdf)
+
 __Presenter__: Andrew Borgman, 
 
 Andrew Borgman leads a "full stack" Shiny development team at a large life sciences company where he helps create innovative data products that speed up the drug development process. He is a long-time R user and has been building Shiny applications for almost a decade.
