@@ -17,7 +17,7 @@ categories: jekyll update
 
 We will be viewing/discussing one of the keynotes from rstudio::conf.
 
-https://www.rstudio.com/conference/#conf-keynotes
+[rstudio::conf Keynotes](https://www.rstudio.com/conference/#conf-keynotes)
 
 
 
