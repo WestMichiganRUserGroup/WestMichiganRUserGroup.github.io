@@ -11,7 +11,7 @@ categories: jekyll update
 |**Date**    |November 08, 2022 |
 |**Time**    |18:00          |
 |**Location**|Grand Valley State University<br>University Club<br>DEV 107C<br>401 Fulton St W, Grand Rapids, MI 49504|
-|**Parking** |DeVos lot and ramp|
+|**Parking** |DeVos ramp|
 
 Please RSVP at this google form if you plan to attend so we have an approximate count.
 
