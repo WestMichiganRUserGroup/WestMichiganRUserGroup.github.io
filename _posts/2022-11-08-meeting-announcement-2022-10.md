@@ -21,4 +21,6 @@ Please RSVP at this google form if you plan to attend so we have an approximate 
 
 Join us as we explore new and interesting R packages that you might not be aware of. Students and faculty will demonstrate some of their favorite R packages for getting things done. If time allows after the planned presentations, attendees will be welcome to demonstrate other R packages.
 
-
+Presentations:
+[baseballr](https://github.com/WestMichiganRUserGroup/Meeting-Materials/blob/master/20221108-GVSU-Students/baseballr_pres.pdf)
+[ggarrange](https://github.com/WestMichiganRUserGroup/Meeting-Materials/blob/master/20221108-GVSU-Students/ggarrange.pdf)
