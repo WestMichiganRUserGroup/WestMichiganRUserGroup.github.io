@@ -16,7 +16,7 @@ To join the forum, search for **West Michigan R User Group** on [Google Groups](
 </iframe>
 <script type="text/javascript">
   document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/westmichiganrusergroup'
+     'https://groups.google.com/u/3/g/westmichiganrusergroup'
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script> 
