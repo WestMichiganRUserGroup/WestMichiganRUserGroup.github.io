@@ -17,7 +17,6 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -32,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: calc(#{$spacing-unit} / 2);
 }
 
 
@@ -47,7 +46,7 @@ img {
 
 .logo {
     max-height: 35px;
-    max-width: 35px;    
+    max-width: 35px;
     padding-right: 15px;
     padding-bottom: 5px;
 }
@@ -83,15 +82,6 @@ li {
 
 
 /**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
-
-
-
-/**
  * Links
  */
 a {
@@ -116,7 +106,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    padding-left: calc(#{$spacing-unit} / 2);
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -171,8 +161,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: calc(#{$spacing-unit} / 2);
+        padding-left: calc(#{$spacing-unit} / 2);
     }
 }
 

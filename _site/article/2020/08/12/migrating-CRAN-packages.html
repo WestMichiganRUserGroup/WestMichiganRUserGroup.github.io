@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Migrating CRAN Packages after R Upgrades</title>
+  <meta name="description" content="Background">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/article/2020/08/12/migrating-CRAN-packages.html">
+  <link rel="alternate" type="application/rss+xml" title="West Michigan R User Group" href="http://localhost:4000/feed.xml" />
+  <!-- The R logo is &copy; 2016 The R Foundation. Creative Commons Attribution-ShareAlike 4.0 International license (CC-BY-SA 4.0) https://creativecommons.org/licenses/by-sa/4.0/ -->
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+</head>
+
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/"><img class="logo" src="/images/Rlogo.png">West Michigan R User Group</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/forum/">Forum</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/upcoming/">Upcoming Events</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Migrating CRAN Packages after R Upgrades</h1>
+    <p class="post-meta">Aug 12, 2020 • Paul Egeler, M.S.</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="background">Background</h2>
+
+<p>This blog post is a supplement to the West Michigan R User Group
+<a href="/meeting/2020/03/02/meeting-announcement-2020-03.html">March 2020 Meeting</a>.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>You may have noticed that sometimes after upgrading to a new version of
+<a href="https://cran.r-project.org/">R</a>, you need to install all of your packages
+again. This happens because the new install of R can’t find the location of the
+old packages. Even if it could, it would still be a good idea to rebuild all of
+your packages because packages are built for specific versions of R. So
+sometimes a package built for one version will need to be rebuilt for another.
+I’m leaving out a lot of details here, but that is the gist of it.</p>
+
+<p>When I upgrade my version of R, many scripts will start breaking since R can’t
+find required packages on my system. Then I have to go track down which packages
+are missing in my new environment and install them manually. This can take a
+long time, especially on systems where you must compile from source. I would
+like to have all the same packages avialable to me that I had in my previous
+version so that everything just works out of the box. What is the best way to do
+that? I’m not sure, but I have whipped up a solution that has worked for me,
+although it has its flaws.</p>
+
+<h2 id="my-current-state-workflow">My Current-State Workflow</h2>
+
+<p>Since the majority of the packages that I use are from CRAN, I have written an R
+script that goes through a library location to identify and install CRAN packages
+while telling me which packages I will need to install from elsewhere (<em>e.g.</em>,
+<a href="https://www.bioconductor.org/">Bioconductor</a>,
+<a href="http://www.omegahat.net/">Omegahat</a>,
+<a href="https://github.com/SpectrumHealthResearch">github</a>,
+internal and personal packages).</p>
+
+<p>I still install non-CRAN pacakges manually, but it reduces the number of
+packages that I have to process considerably. Installing non-CRAN packages could
+be automated to a degree, but since packages are installed from so many
+different places, I have not seen the benefit.</p>
+
+<p>Here are the simple steps that I use:</p>
+
+<h3 id="finding-the-library-path">Finding the Library Path</h3>
+
+<p>Prior to installing a new version of R, I find out where my existing version of
+R is searching to find its packages. These are the locations that I will be
+coming back to in order to get a list of packages to build under my new version
+of R. To do that, I use the <code class="language-plaintext highlighter-rouge">.libPaths()</code> function.</p>
+
+<p>In particular, the first element returned is my personal library (this
+may also be defined by the <code class="language-plaintext highlighter-rouge">R_LIBS_USER</code> environment variable). Unless you are a
+site administrator, that is likely where the packages you want will be. I take
+note of these locations, as I will need them in the next step.</p>
+
+<h3 id="after-upgrade">After Upgrade</h3>
+
+<p>Now that I have the location to the user library of my prior installation, I’m
+ready to upgrade. Once I’ve have upgraded, I start an R session and <code class="language-plaintext highlighter-rouge">source()</code>
+this file:</p>
+
+<script src="https://gist.github.com/pegeler/9c45b7766bd70cd44836752dae3b4077.js"></script>
+
+<p>The function <code class="language-plaintext highlighter-rouge">install_packages_from_library()</code> takes a vector of library paths
+to check and the dots (<code class="language-plaintext highlighter-rouge">...</code>) are passed to <code class="language-plaintext highlighter-rouge">install.packages()</code> so that I can
+pass custom parameters such as a CRAN mirror or specify building from source.</p>
+
+<p>An example usage would be:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install_packages_from_library</span><span class="p">(</span><span class="s1">'/home/user1/R/x86_64-pc-linux-gnu-library/3.5'</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>I get one or two prompts and then package installation commences.</p>
+
+<h2 id="alternative-approaches">Alternative Approaches</h2>
+
+<p>The internet is full of
+<a href="https://shiny.rstudio.com/articles/upgrade-R.html">articles</a>,
+<a href="https://www.r-bloggers.com/automated-re-install-of-packages-for-r-3-0/">blog posts</a>,
+<a href="https://stackoverflow.com/questions/1401904/painless-way-to-install-a-new-version-of-r">Stack Overflow answers</a>,
+and <a href="https://www.reddit.com/r/rstats/comments/67a9dh/how_do_you_migrate_your_packages_after_an_update/">forum posts</a>
+on the subject.</p>
+
+<p>A very popular answer seems to be to copy all packages from the old library
+directory to the new one and then run
+<code class="language-plaintext highlighter-rouge">update.packages(ask = FALSE, checkBuilt = TRUE)</code>
+(note the <code class="language-plaintext highlighter-rouge">checkBuilt</code> parameter, which will cause the function to
+upgrade packages built under a different version). This seems like a very
+rational and convenient solution that would work for most cases. However, a
+quick glance at the function documentation and source code indicates to me that
+it does not solve the problem of packages from non-standard sources. As a
+result, the <code class="language-plaintext highlighter-rouge">update.packages()</code> approach risks moving packages into your new R
+library that were built for the wrong version of R. Hence my reason for creating
+the script above.</p>
+
+<p>I still think there must to be a better way. How can I automate installation of
+<em>all</em> packages in a library, not just CRAN packages? Also, is there a better way
+to standardize my environment across workstations? For example, what do I do
+when I move to a new machine which does not have access to those old package
+libraries?</p>
+
+<h3 id="metapackage-or-one-package-to-install-them-all">Metapackage, or One Package to Install Them All</h3>
+
+<p>That got me thinking about the power of the packages themselves. Specifically,
+metapackages, or packages that install/invoke other packages. A popular
+metapackage that you probably already know is
+<a href="https://cran.r-project.org/package=tidyverse"><code class="language-plaintext highlighter-rouge">tidyverse</code></a>. So why not a
+metapackage for personal use? Or even metapackages for specific use-cases?</p>
+
+<p>With the
+<a href="https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html"><code class="language-plaintext highlighter-rouge">Remotes</code> field</a>
+in a package <em>DESCRIPTION</em> file, even packages from non-standard sources can be
+installed automatically with <a href="https://cran.r-project.org/package=devtools"><code class="language-plaintext highlighter-rouge">devtools</code></a>.</p>
+
+<p>So with that, I have created <a href="https://github.com/pegeler/metapackage">my first metapackage</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>There does not seem to be a clear consensus on exactly the right way to handle
+package migration between versions of R. My previous workflow has served me well,
+but I am looking forward to using my new metapackage in the future. We will soon
+see how fastidous I am about updating packages that I begin using more or removing
+those that fall by the wayside.</p>
+
+<h2 id="open-forum">Open Forum</h2>
+
+<p>What is your strategy?</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">West Michigan R User Group</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>West Michigan R User Group</li>
+          
+          <li>
+            <a href="https://github.com/WestMichiganRUserGroup">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">WestMichiganRUserGroup</span>
+            </a>
+          </li>
+          
+          <li><a href="mailto:WestMichiganRUserGroup@googlegroups.com">WestMichiganRUserGroup@googlegroups.com</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">This group gets together monthly to discuss R programming, statistical techniques using R, finding help with R, R packages, and more. We meet up every second Tuesday of the month at 6pm.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

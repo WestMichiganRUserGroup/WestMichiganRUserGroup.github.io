@@ -2,78 +2,1111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>West Michigan R User Group</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>This group gets together monthly to discuss R programming, statistical techniques using R, finding help with R, R packages, and more. We meet up every second Tuesday of the month at 6pm.
 </description>
-    <link>WestMichiganRUserGroup.github.io/</link>
-    <atom:link href="WestMichiganRUserGroup.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Mar 2016 19:51:29 -0400</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2016 19:51:29 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Jan 2024 05:33:17 -0500</pubDate>
+    <lastBuildDate>Sun, 14 Jan 2024 05:33:17 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Save the evening for userR&#39;s</title>
-        <description>&lt;h2 id=&quot;meeting-overview&quot;&gt;Meeting Overview&lt;/h2&gt;
+        <title>MEETING ANNOUNCEMENT: November 2022</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;November 08, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Grand Valley State University&lt;br /&gt;University Club&lt;br /&gt;DEV 107C&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos ramp&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;UseR’s, join us 6pm March 15 for pizza, networking and talk about R in Room 121E of DeVos Center. Same building as our inaugural meeting, but down the hall in a regular classroom. We have three presenters scheduled for the meeting. I’m also told we will have wifi access this time, so feel free to bring along your network devices so you can follow along with the discussions.&lt;/p&gt;
+&lt;h2 id=&quot;presentations&quot;&gt;Presentations&lt;/h2&gt;
 
-&lt;h2 id=&quot;talk-formats&quot;&gt;Talk Formats&lt;/h2&gt;
+&lt;p&gt;Join us as we explore new and interesting R packages that you might not be aware of. Students and faculty will demonstrate some of their favorite R packages for getting things done. If time allows after the planned presentations, attendees will be welcome to demonstrate other R packages.&lt;/p&gt;
 
-&lt;h4 id=&quot;lightning-talks&quot;&gt;Lightning Talks&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;Lightning talks&lt;/em&gt; are short – 10 minutes with 5 minutes for questions – informal topic oriented talks, a couple of slides and/or a demonstration. Time to show off that great new package or code snippet you found (or developed yourself). Students, these are a great way to add to your resume! The format is essentially the same as conference contributed talks, but we’re a LOT less intimidating.&lt;/p&gt;
-
-&lt;h4 id=&quot;use-case-talks&quot;&gt;Use Case Talks&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;Use case&lt;/em&gt; talks are longer – 30 to 50 minutes – going into more depth and are more work flow oriented.&lt;/p&gt;
-
-&lt;h2 id=&quot;march-15-meeting-schedule&quot;&gt;March 15 Meeting Schedule&lt;/h2&gt;
-
-&lt;h4 id=&quot;lightning-talk&quot;&gt;Lightning Talk&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dave Kendall (Advanced Radiology Services) - Word Clouds&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;use-yase-talks&quot;&gt;Use Yase Talks&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Aaron Clark (Advanced Radiology Services) - My First Shiny App&lt;/li&gt;
-  &lt;li&gt;Dave Zeitler (GVSU/FS) - RStudio Projects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If anyone would like to give a lightning talk or a use case talk, please let Aaron or Dave know so we can schedule it. We may even be able to fit you into the next meeting.&lt;/p&gt;
+&lt;p&gt;Slides:
+&lt;a href=&quot;https://github.com/WestMichiganRUserGroup/Meeting-Materials/blob/master/20221108-GVSU-Students/baseballr_pres.pdf&quot;&gt;baseballr&lt;/a&gt;
+&lt;a href=&quot;https://github.com/WestMichiganRUserGroup/Meeting-Materials/blob/master/20221108-GVSU-Students/ggarrange.pdf&quot;&gt;ggarrange&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Mar 2016 08:00:00 -0400</pubDate>
-        <link>WestMichiganRUserGroup.github.io/jekyll/update/2016/03/15/second-meeting.html</link>
-        <guid isPermaLink="true">WestMichiganRUserGroup.github.io/jekyll/update/2016/03/15/second-meeting.html</guid>
+        <pubDate>Mon, 31 Oct 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2022/10/31/meeting-announcement-2022-10.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2022/10/31/meeting-announcement-2022-10.html</guid>
         
         
-        <category>jekyll</category>
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: September 2022</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;September 13, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Calvin University North Hall Room 276&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Lots 4 &amp;amp; 5 West of North Hall&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;presentations&quot;&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;We will be viewing/discussing one of the keynotes from rstudio::conf.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rstudio.com/conference/#conf-keynotes&quot;&gt;rstudio::conf Keynotes&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 07 Sep 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2022/09/07/meeting-announcement-2022-08.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2022/09/07/meeting-announcement-2022-08.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: August 2022</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;August 9, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 107D&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos lot and ramp&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;business-meeting&quot;&gt;Business meeting&lt;/h2&gt;
+
+&lt;p&gt;This is our last summer 2022 ‘back from pandemic’ series! We will start the meeting with a discussion of how WMRUG will go forward into the fall. Discussion to include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Frequency - monthly, alternate months, other?&lt;/li&gt;
+  &lt;li&gt;Format - speakers as we’ve done in the past or more hands on R?&lt;/li&gt;
+  &lt;li&gt;Location - GVSU or Calvin as we’ve been doing, or find another venue?&lt;/li&gt;
+  &lt;li&gt;Suggestions - other suggestions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;presentations&quot;&gt;Presentations&lt;/h2&gt;
+
+&lt;p&gt;We hopefully have two presentations, the first is by Andrew Borgman and maybe a second talk by Paul Egeler (to be announced).&lt;/p&gt;
+
+&lt;h2 id=&quot;beyond-basic-shiny-a-survey-of-rs-not-dull-web-ecosystem&quot;&gt;Beyond Basic Shiny: a Survey of R’s Not Dull Web Ecosystem&lt;/h2&gt;
+
+&lt;p&gt;Do you love R? What about Shiny? Or just the web in general? If so, you may love this not dull discussion of R’s web ecosystem beyond basic Shiny applications. We’ll review exciting extensions to the Shiny ecosystem and check out other non-Shiny web frameworks that have been built with different design philosophies. Whether you are looking for better application styling, improved end-user experience, or are hoping to develop something other than a single-page application within R, this talk may be for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/borgmaan/2022-08-08-wmrug/blob/main/2022-08-08-wmrug.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: Andrew Borgman,&lt;/p&gt;
+
+&lt;p&gt;Andrew Borgman leads a “full stack” Shiny development team at a large life sciences company where he helps create innovative data products that speed up the drug development process. He is a long-time R user and has been building Shiny applications for almost a decade.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 31 Jul 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2022/07/31/meeting-announcement-2022-07.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2022/07/31/meeting-announcement-2022-07.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: July 2022 w links to materials</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;July 12, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 107D&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos lot and ramp&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;We continue our ‘back from pandemic’ series with a talk by co-organizer Aaron Clark! Join us at 6pm in 107D DeVos on the GVSU downtown (Pew) campus.&lt;/p&gt;
+
+&lt;h3 id=&quot;tracking-shiny-app-usage-tools&quot;&gt;Tracking shiny app usage tools&lt;/h3&gt;
+
+&lt;p&gt;You’ve been working on a new shiny app for weeks, months, or maybe even years. You’re ready to release it to the public or maybe train a group of new users soon. After release, maybe you can’t gather feedback from your end users easily. How do you know if people are actually using it? In particular, are they using the app how you intended them to use it? User adoption is SO important in software development and tracking user adoption metrics through the tools presented in this talk can help inform a developer of many things: is my app being used? Is a specific person using my app (like the CEO)? If so, which features or workflows are being used most/least? Does that align with my expectations? Do I need to enhance the user friendliness of certain widgets to increase the adoption of certain features? Do I need to spend extra time marketing my application, or perhaps certain features?&lt;/p&gt;
+
+&lt;p&gt;Shiny developers not tracking usage statistics are simply working in the dark.  As such, this talk with cover various tools that exist to help answer these questions (above), making you a well-informed developer. Specifically this talk will cover adding google analytics (for public apps) or matomo analytics (for private apps), exploring built in RS Connect “instrumentation” tracking, the {shinylogs} package, the {shiny.stats} package, and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC6tTO2X_ywJFqjsBOljCtkA&quot;&gt;Presentation YouTube link:&lt;/a&gt;
+&lt;a href=&quot;http://bit.ly/shiny_usage&quot;&gt;Github repository of slides:&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: Aaron Clark, Biogen&lt;/p&gt;
+
+&lt;p&gt;Aaron is a  Principal  Data Scientist at Biogen developing R packages and Shiny apps to advance the use of R in clinical trials.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/in/dataaaronclark/&quot;&gt;LinkedIn:&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Jul 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2022/07/04/meeting-announcement-2022-07.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2022/07/04/meeting-announcement-2022-07.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: June 2022</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;June 14, 2022&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 107D&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos lot and ramp&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;gvsus-statistics-department-is-providing-jimmy-johns&quot;&gt;GVSU’s Statistics department is providing Jimmy Johns.&lt;/h3&gt;
+&lt;p&gt;Thanks Paul! Go to &lt;a href=&quot;https://forms.gle/DNXoyWshoizYxoaT6&quot;&gt;this link&lt;/a&gt; by June 8 to RSVP/specify your sandwich order for the meeting. It appears you’ll need to be logged into a google account before clicking on the link, at least it did for me. If you have trouble, email me (zeitlerd@mail.gvsu.edu) or Bradford (dykesb@gvsu.edu) and we’ll get you signed up.&lt;/p&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;We are excited to return to in person meetings the second Tuesday of June on GVSU’s DeVos campus downtown.&lt;/p&gt;
+
+&lt;h3 id=&quot;visualizations-for-non-trivial-linear-models&quot;&gt;Visualizations for Non-trivial Linear Models&lt;/h3&gt;
+
+&lt;p&gt;Classroom examples and problems for most users of statistics seldom go
+beyond a simple two factor fixed effects linear model while real
+research is more often a mixture of fixed and random effects as well
+as continuous covariates. Statisticians readily work with these more
+advanced models, but researchers, particularly graduate students
+outside of statistics generally need help understanding what these
+statistical models are telling them. Visualizations greatly aid in
+understanding interactions, fixed versus random effects and the
+interplay between continuous and categorical factors. We will look at
+a couple of examples of models from the GVSU Biomechanics lab and how
+visualizations in R have helped graduate students in the Physical Therapy
+program to understand their data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: David Zeitler, PhD Foundation Stochastics LLC&lt;/p&gt;
+
+&lt;h4 id=&quot;presenter-bio&quot;&gt;Presenter Bio:&lt;/h4&gt;
+&lt;p&gt;Dr. Zeitler retired in 2020 from Grand Valley State University where he taught statistics for 17 years after having worked in West Michigan industry for 23 years. Today he continues to advise Physical Therapy research groups working in the GVSU Biomechanics lab and works part time through his own company Foundation Stochastics, LLC. He is co-organizer of the West Michigan R Users Group and a member of the advisory board as well as program co-chair for the Big Data Ignite conferences in Grand Rapids, Michigan.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 May 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2022/05/28/meeting-announcement-2022-06.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2022/05/28/meeting-announcement-2022-06.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Big Data Ignite 2021 - Leading Out of Uncertainty</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/BDI2021.jpg&quot; alt=&quot;BDI 2021&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;October 5-November 4, 2021&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12:00-1:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://bigdataignite.org/register/&quot;&gt;Register&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Virtual&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;big-data-ignite-2021---leading-out-of-uncertainty&quot;&gt;Big Data Ignite 2021 - Leading Out of Uncertainty&lt;/h2&gt;
+
+&lt;p&gt;Mark your calendars! The free Big Data Ignite 2021 Webinar Series “Leading Out of Uncertainty” is just around the corner! Webinars will take place from 12 - 1 PM EDT every Tuesday and Thursday from October 5 to November 4. Program available at https://bigdataignite.org.&lt;/p&gt;
+
+&lt;p&gt;Some of the planned talks:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Home Depot EDW Journey to Google Cloud Platform&lt;/li&gt;
+  &lt;li&gt;Disproportional Impact of COVID-19 on Marginalized Communities&lt;/li&gt;
+  &lt;li&gt;Reflections on a Decade in Data Science&lt;/li&gt;
+  &lt;li&gt;Building a Data-Science Capability: Aspirations, Obstacles and Lessons-Learn&lt;/li&gt;
+  &lt;li&gt;AI Technologies to Support Smart City Infrastructure&lt;/li&gt;
+  &lt;li&gt;Auto-Encoders and Deep Neural Networks for Structural Classification&lt;/li&gt;
+  &lt;li&gt;AI for social good and disaster response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Register for free at https://bigdataignite.org/register/.&lt;/p&gt;
+
+&lt;p&gt;You must register to attend. Links to the talks will be distributed by email to registered attendees.&lt;/p&gt;
+
+&lt;p&gt;Today’s data ecosystem is undergoing fundamental shifts that call into question the value of historical data and existing data models. At the same time, these paradigm shifts create unprecedented opportunities to explore how data analytics and engineering can adapt and evolve to deliver improved insights even in uncertain times. Join online for timely talks addressing current issues and successes in data science and information management.&lt;/p&gt;
+
+&lt;p&gt;We look forward to chatting with you there!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 05 Oct 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2021/10/05/BigDataIgnite2021-Leading_Out_of_Uncertainty.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2021/10/05/BigDataIgnite2021-Leading_Out_of_Uncertainty.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Domain change to WMRUG.org</title>
+        <description>&lt;p&gt;We would like to announce that WMRUG has purchased
+&lt;a href=&quot;https://wmrug.org&quot;&gt;wmrug.org&lt;/a&gt; and &lt;a href=&quot;https://wmrug.club&quot;&gt;wmrug.club&lt;/a&gt; and are now
+hosting this blog there!&lt;/p&gt;
+
+&lt;p&gt;You may still access the blog at &lt;a href=&quot;https://WestMichiganRUserGroup.github.io/&quot;&gt;https://WestMichiganRUserGroup.github.io/&lt;/a&gt;
+since we are still hosting the blog through &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;
+using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
+However, we felt that &lt;a href=&quot;https://WestMichiganRUserGroup.github.io/&quot;&gt;https://WestMichiganRUserGroup.github.io/&lt;/a&gt; was a little
+bit of a mouthful so wanted to provide you with a shorter URL for your
+convenience.&lt;/p&gt;
+
+&lt;p&gt;Please let us know if you’d like to hear a presentation about hosting static sites
+using Github Pages and/or building blogs using Jekyll or
+&lt;a href=&quot;https://blogdown.org/&quot;&gt;Blogdown&lt;/a&gt;. We’d love to hear from you about that or any
+other presentation ideas in the &lt;a href=&quot;/forum/&quot;&gt;forum&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The WMRUG team&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 Sep 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/update/2020/09/14/domain-change.html</link>
+        <guid isPermaLink="true">http://localhost:4000/update/2020/09/14/domain-change.html</guid>
+        
         
         <category>update</category>
         
       </item>
     
       <item>
-        <title>Inaugural Meeting</title>
-        <description>&lt;p&gt;Join us to kick off the West Michigan R Users Group. We will be viewing recordings of the Rstudio Essentials programming webinars. Both new R programmers and experts should find useful hints both in the webinars and in the group discussions. Pizza will also be provided.&lt;/p&gt;
+        <title>Big Data Ignite 2020</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sept 15, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://bigdataignite.org/register/&quot;&gt;Register&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;RStudio Programming&lt;/p&gt;
+&lt;h2 id=&quot;big-data-ignite-2020&quot;&gt;Big Data Ignite 2020&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Part 1: Writing code in RStudio&lt;/li&gt;
-  &lt;li&gt;Part 2: Debugging code in RStudio&lt;/li&gt;
-  &lt;li&gt;Part 3: Package writing in RStudio&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Mark your calendar! The free Big Data Ignite 2020 Webinar Series “Data-Driven in Uncertain Times” takes place from 12 - 1 PM every Tuesday and Thursday from September 15 to October 15. Program available at &lt;a href=&quot;https://bigdataignite.org&quot;&gt;BigDataIgnite.org&lt;/a&gt;. Today’s data ecosystem is undergoing fundamental shifts that call into question the value of historical data and existing data models. At the same time, these paradigm shifts create unprecedented opportunities to explore how data analytics and engineering can adapt and evolve to deliver improved insights even in uncertain times. Join us online for timely talks addressing current issues and successes in data science and information management. Register for free at &lt;a href=&quot;https://bigdataignite.org/register/&quot;&gt;https://bigdataignite.org/register/&lt;/a&gt;, and please forward this message to others who may be interested.&lt;/p&gt;
 
-&lt;p&gt;Note there is a parking permit for the Seward Ramp west of DeVos Center in our files section (under the ellipsis in the menu bar) as well as a map of the GVSU Pew Campus. We will be in room 107D of DeVos Center (#6D) on the map.&lt;/p&gt;
+&lt;h2 id=&quot;presentation-tuesday-915-at-noon&quot;&gt;Presentation: Tuesday, 9/15 at Noon&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Predictive Maintenance Pipeline Using R&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Presenter: Nagdev Amruthnath&lt;/p&gt;
+
+&lt;p&gt;Co-Sponsored by:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;West Michigan R Users Group&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract:&lt;/p&gt;
+
+&lt;p&gt;The manufacturing industry is currently going through its fourth industrial revolution with advancements in quality, computer vision, safety, and maintenance. Among these advancements, predictive maintenance is seen as the magical unicorn for achieving a competitive edge and significantly improving efficiency. In a study by PWC, it is estimated that by implementing predictive maintenance, manufacturing industries could reduce cost by 12 percent, improve uptime by 9 percent, reduce various risks by 14 percent and extend the life of the machine by 20 percent. In this presentation, we introduce predictive maintenance, build predictive models using R, and deploy them in a production environment.&lt;/p&gt;
+
 </description>
-        <pubDate>Tue, 02 Feb 2016 07:00:00 -0500</pubDate>
-        <link>WestMichiganRUserGroup.github.io/jekyll/update/2016/02/02/first-meeting.html</link>
-        <guid isPermaLink="true">WestMichiganRUserGroup.github.io/jekyll/update/2016/02/02/first-meeting.html</guid>
+        <pubDate>Sat, 12 Sep 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2020/09/12/BigDataIgnite2020.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2020/09/12/BigDataIgnite2020.html</guid>
         
         
-        <category>jekyll</category>
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Migrating CRAN Packages after R Upgrades</title>
+        <description>&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;This blog post is a supplement to the West Michigan R User Group
+&lt;a href=&quot;/meeting/2020/03/02/meeting-announcement-2020-03.html&quot;&gt;March 2020 Meeting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;You may have noticed that sometimes after upgrading to a new version of
+&lt;a href=&quot;https://cran.r-project.org/&quot;&gt;R&lt;/a&gt;, you need to install all of your packages
+again. This happens because the new install of R can’t find the location of the
+old packages. Even if it could, it would still be a good idea to rebuild all of
+your packages because packages are built for specific versions of R. So
+sometimes a package built for one version will need to be rebuilt for another.
+I’m leaving out a lot of details here, but that is the gist of it.&lt;/p&gt;
+
+&lt;p&gt;When I upgrade my version of R, many scripts will start breaking since R can’t
+find required packages on my system. Then I have to go track down which packages
+are missing in my new environment and install them manually. This can take a
+long time, especially on systems where you must compile from source. I would
+like to have all the same packages avialable to me that I had in my previous
+version so that everything just works out of the box. What is the best way to do
+that? I’m not sure, but I have whipped up a solution that has worked for me,
+although it has its flaws.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-current-state-workflow&quot;&gt;My Current-State Workflow&lt;/h2&gt;
+
+&lt;p&gt;Since the majority of the packages that I use are from CRAN, I have written an R
+script that goes through a library location to identify and install CRAN packages
+while telling me which packages I will need to install from elsewhere (&lt;em&gt;e.g.&lt;/em&gt;,
+&lt;a href=&quot;https://www.bioconductor.org/&quot;&gt;Bioconductor&lt;/a&gt;,
+&lt;a href=&quot;http://www.omegahat.net/&quot;&gt;Omegahat&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/SpectrumHealthResearch&quot;&gt;github&lt;/a&gt;,
+internal and personal packages).&lt;/p&gt;
+
+&lt;p&gt;I still install non-CRAN pacakges manually, but it reduces the number of
+packages that I have to process considerably. Installing non-CRAN packages could
+be automated to a degree, but since packages are installed from so many
+different places, I have not seen the benefit.&lt;/p&gt;
+
+&lt;p&gt;Here are the simple steps that I use:&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-the-library-path&quot;&gt;Finding the Library Path&lt;/h3&gt;
+
+&lt;p&gt;Prior to installing a new version of R, I find out where my existing version of
+R is searching to find its packages. These are the locations that I will be
+coming back to in order to get a list of packages to build under my new version
+of R. To do that, I use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.libPaths()&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;p&gt;In particular, the first element returned is my personal library (this
+may also be defined by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R_LIBS_USER&lt;/code&gt; environment variable). Unless you are a
+site administrator, that is likely where the packages you want will be. I take
+note of these locations, as I will need them in the next step.&lt;/p&gt;
+
+&lt;h3 id=&quot;after-upgrade&quot;&gt;After Upgrade&lt;/h3&gt;
+
+&lt;p&gt;Now that I have the location to the user library of my prior installation, I’m
+ready to upgrade. Once I’ve have upgraded, I start an R session and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source()&lt;/code&gt;
+this file:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/pegeler/9c45b7766bd70cd44836752dae3b4077.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install_packages_from_library()&lt;/code&gt; takes a vector of library paths
+to check and the dots (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;...&lt;/code&gt;) are passed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install.packages()&lt;/code&gt; so that I can
+pass custom parameters such as a CRAN mirror or specify building from source.&lt;/p&gt;
+
+&lt;p&gt;An example usage would be:&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;install_packages_from_library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;/home/user1/R/x86_64-pc-linux-gnu-library/3.5&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I get one or two prompts and then package installation commences.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-approaches&quot;&gt;Alternative Approaches&lt;/h2&gt;
+
+&lt;p&gt;The internet is full of
+&lt;a href=&quot;https://shiny.rstudio.com/articles/upgrade-R.html&quot;&gt;articles&lt;/a&gt;,
+&lt;a href=&quot;https://www.r-bloggers.com/automated-re-install-of-packages-for-r-3-0/&quot;&gt;blog posts&lt;/a&gt;,
+&lt;a href=&quot;https://stackoverflow.com/questions/1401904/painless-way-to-install-a-new-version-of-r&quot;&gt;Stack Overflow answers&lt;/a&gt;,
+and &lt;a href=&quot;https://www.reddit.com/r/rstats/comments/67a9dh/how_do_you_migrate_your_packages_after_an_update/&quot;&gt;forum posts&lt;/a&gt;
+on the subject.&lt;/p&gt;
+
+&lt;p&gt;A very popular answer seems to be to copy all packages from the old library
+directory to the new one and then run
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update.packages(ask = FALSE, checkBuilt = TRUE)&lt;/code&gt;
+(note the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;checkBuilt&lt;/code&gt; parameter, which will cause the function to
+upgrade packages built under a different version). This seems like a very
+rational and convenient solution that would work for most cases. However, a
+quick glance at the function documentation and source code indicates to me that
+it does not solve the problem of packages from non-standard sources. As a
+result, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update.packages()&lt;/code&gt; approach risks moving packages into your new R
+library that were built for the wrong version of R. Hence my reason for creating
+the script above.&lt;/p&gt;
+
+&lt;p&gt;I still think there must to be a better way. How can I automate installation of
+&lt;em&gt;all&lt;/em&gt; packages in a library, not just CRAN packages? Also, is there a better way
+to standardize my environment across workstations? For example, what do I do
+when I move to a new machine which does not have access to those old package
+libraries?&lt;/p&gt;
+
+&lt;h3 id=&quot;metapackage-or-one-package-to-install-them-all&quot;&gt;Metapackage, or One Package to Install Them All&lt;/h3&gt;
+
+&lt;p&gt;That got me thinking about the power of the packages themselves. Specifically,
+metapackages, or packages that install/invoke other packages. A popular
+metapackage that you probably already know is
+&lt;a href=&quot;https://cran.r-project.org/package=tidyverse&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tidyverse&lt;/code&gt;&lt;/a&gt;. So why not a
+metapackage for personal use? Or even metapackages for specific use-cases?&lt;/p&gt;
+
+&lt;p&gt;With the
+&lt;a href=&quot;https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Remotes&lt;/code&gt; field&lt;/a&gt;
+in a package &lt;em&gt;DESCRIPTION&lt;/em&gt; file, even packages from non-standard sources can be
+installed automatically with &lt;a href=&quot;https://cran.r-project.org/package=devtools&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;devtools&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So with that, I have created &lt;a href=&quot;https://github.com/pegeler/metapackage&quot;&gt;my first metapackage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There does not seem to be a clear consensus on exactly the right way to handle
+package migration between versions of R. My previous workflow has served me well,
+but I am looking forward to using my new metapackage in the future. We will soon
+see how fastidous I am about updating packages that I begin using more or removing
+those that fall by the wayside.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-forum&quot;&gt;Open Forum&lt;/h2&gt;
+
+&lt;p&gt;What is your strategy?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Aug 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/article/2020/08/12/migrating-CRAN-packages.html</link>
+        <guid isPermaLink="true">http://localhost:4000/article/2020/08/12/migrating-CRAN-packages.html</guid>
+        
+        
+        <category>article</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: May 2020</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;May 28, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;19:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;https://youtu.be/fCWGevB366g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;We are excited to co sponsor another &lt;strong&gt;joint meeting&lt;/strong&gt; with our partners at
+&lt;a href=&quot;https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/269166865/&quot;&gt;Data Science and Analytics West Michigan&lt;/a&gt;
+and  &lt;a href=&quot;https://www.meetup.com/GRAIML/&quot;&gt;Machine Learning GR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;RSVP and details at &lt;a href=&quot;https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/270553236/&quot;&gt;Meetup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;join-on-youtube-live&quot;&gt;JOIN on YouTube Live&lt;/h4&gt;
+
+&lt;p&gt;Tune in to the presentation on &lt;a href=&quot;https://youtu.be/fCWGevB366g&quot;&gt;YouTube Live&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Join in the discussion via &lt;a href=&quot;https://join.slack.com/t/bdieventsworkspace/shared_invite/zt-en211de9-6NnNMMCpZvGElZPcSK6UFQ&quot;&gt;Slack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;improved-machine-learning-with-kedro--mlflow&quot;&gt;Improved Machine Learning with Kedro &amp;amp; MLflow&lt;/h3&gt;
+
+&lt;p&gt;Hosted by
+Elliott J. R. Church&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Presenter&lt;/strong&gt;: Michael Bloem, PhD, will explain and demonstrate the Kedro &amp;amp; MLflow
+machine-learning frameworks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kedro.readthedocs.io/en/latest/index.html&quot;&gt;Kedro&lt;/a&gt; and 
+&lt;a href=&quot;https://www.mlflow.org/docs/latest/index.html&quot;&gt;MLflow&lt;/a&gt; are relatively new open
+source software packages that can make the development &amp;amp; deployment of
+machine learning models (and the data pipelines that support them) more
+robust, reproducible, &amp;amp; collaborative. In this talk, I will introduce
+these software packages and describe how they can provide 
+&lt;a href=&quot;https://medium.com/@QuantumBlack/deploying-and-versioning-data-
+pipelines-at-scale-942b1d81b5f5&quot;&gt;complementary functionality&lt;/a&gt;. I will then demonstrate their use from
+soup to nuts (e.g., from a CSV or database to an API model deployment).
+Time permitting, I will discuss how pipelines in Python’s &lt;a href=&quot;https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.
+Pipeline.html&quot;&gt;scikit-learn
+package&lt;/a&gt; can provide additional complementary functionality that
+facilitates model deployment.&lt;/p&gt;
+
+&lt;h4 id=&quot;presenter-bio&quot;&gt;Presenter Bio:&lt;/h4&gt;
+
+&lt;p&gt;Michael Bloem is a principal data scientist with Mosaic Data Science. In
+this role, he leads and executes the design, development, and deployment
+of data science-enabled solutions with organizations in a variety of
+verticals. Prior to joining Mosaic Data Science, he led the development
+of analytics that enabled new Internet-of-Things-based products and
+services at Steelcase, Inc. and researched air traffic management in the
+Systems Modeling and Optimization branch of the Aviation Systems
+Division at NASA Ames Research Center. He received his B.S.E. degree
+with majors in electrical and computer engineering and economics from
+Calvin College in 2004 and his M.S. degree in electrical and computer
+engineering from the University of Illinois at Urbana-Champaign in 2007.
+In 2015, Michael received his PhD in operations research from the
+Department of Management Science and Engineering at Stanford University.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 May 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2020/05/28/meeting-announcement-2020-05.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2020/05/28/meeting-announcement-2020-05.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>Virtual Meetings</title>
+        <description>&lt;p&gt;Due to the emerging public health concern regarding COVID-19, we will be
+practicing social distancing. This means that all meetings will occur virtually
+until further notice. See meeting announcement posts for details. Please post
+any questions, comments, or suggestions on the forum.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/update/2020/03/15/virtual-meetings.html</link>
+        <guid isPermaLink="true">http://localhost:4000/update/2020/03/15/virtual-meetings.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: March 2020</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;March 17, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://dwz-83.my.webex.com/dwz-83.my/j.php?MTID=m6c986929101edb19bc2ad861fdf82256&quot;&gt;WebEx&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;None&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;p&gt;We are excited to host another &lt;strong&gt;joint meeting&lt;/strong&gt; with our partners at
+&lt;a href=&quot;https://www.meetup.com/Data-Science-and-Analytics-West-Michigan/events/269166865/&quot;&gt;Data Science and Analytics West Michigan&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This meeting will be held on WebEx. This is our first time using this technology to host our meeting, so please bear with us :-).&lt;/p&gt;
+
+&lt;p&gt;Join by clicking on the link below. If you’re not familiar with WebEx, it would be good to try joining early to get things setup. Note there is an audio only phone line if all you want to do is listen in. Within the WebEx environment we will be able to share video, computer screen, post comments and chat.&lt;/p&gt;
+
+&lt;h4 id=&quot;join-webex-meeting&quot;&gt;JOIN WEBEX MEETING&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dwz-83.my.webex.com/dwz-83.my/j.php?MTID=m6c986929101edb19bc2ad861fdf82256&quot;&gt;https://dwz-83.my.webex.com/dwz-83.my/j.php?MTID=m6c986929101edb19bc2ad861fdf82256&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Meeting number (access code): 794 328 892&lt;/p&gt;
+
+&lt;h4 id=&quot;join-by-phone&quot;&gt;JOIN BY PHONE&lt;/h4&gt;
+
+&lt;p&gt;+1-408-418-9388 United States Toll&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;tel:%2B1-408-418-9388,,*01*794328892%23%23*01*&quot;&gt;Tap here&lt;/a&gt; to call
+(mobile phones only, hosts not supported).&lt;/p&gt;
+
+&lt;h3 id=&quot;big-data-hubris-limitations-in-aggregating-uber-and-google-data&quot;&gt;Big Data Hubris: Limitations in Aggregating Uber and Google Data&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;By Thomas Weinandy, Ph.D. Candidate in Applied Economics at Western Michigan University&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Big data hubris is the belief that big data sets are a substitute for, rather than a supplement to, traditional data collection and analysis. Thomas will share how his understanding of big data has evolved during his economics research and why 273 million Uber trips is not considered “big” enough. He will also discuss lessons learned from the rise and fall of Google Flu Trends.&lt;/p&gt;
+
+&lt;h3 id=&quot;lightning-talk-migrating-cran-packages-after-r-upgrades&quot;&gt;Lightning Talk: Migrating CRAN Packages After R Upgrades&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;By Paul Egeler, M.S., GStat, Spectrum Health Office of Research and Education&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This will be an interactive dialogue on how to best migrate packages from
+previous versions of R into the new R environment after a system upgrade. Paul
+will discuss common strategies found online as well as his own approach.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2020/03/02/meeting-announcement-2020-03.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2020/03/02/meeting-announcement-2020-03.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: February 2020</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;February 18, 2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 209E&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Parking in DeVos ramp - Tell attendant you’re with WMRUG&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6694818617298!2d-85.68195459790934!3d42.96416909777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU3JzUwLjMiTiA4NcKwNDAnNDcuOSJX!5e0!3m2!1sen!2sus!4v1521903747307&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;presentation&quot;&gt;Presentation&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-science-in-manufacturing-applications&quot;&gt;Data Science in Manufacturing Applications&lt;/h3&gt;
+
+&lt;p&gt;Manufacturing has a rich history of using statistics in monitoring processes, quality control, and improve the manufacturing efficiencies. This gave a lead to manufacturing industries to use this data and leverage different levels of analytics to expand the scope to other applications. In this talk we will discuss how we turned our organization to a data-driven organization, by defining the five levels of analytics and how we used it to design our data science journey (or road map), setting up a team for a data science project, setting up data science infrastructure (R, Docker, Rancher), and a brief overview of various data science applications in manufacturing such as predictive maintenance, process quality prediction, quality control through vision AI, safety improvement using NLP, and NLP on historical maintenance records to define new projects. For each of the applications, we will discuss R packages used, the best method to automating R scripts, and the workflow between R and other applications. At the end of this talk, we will also discuss FAQ such as business decisions, deployment, auditing, and many as such.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-the-author&quot;&gt;About the Author&lt;/h3&gt;
+
+&lt;p&gt;Dr. Nagdev Amruthnath currently works as Data Scientist III at DENSO North America. He has earned his Ph.D. and Master’s in Industrial Engineering Department, Western Michigan University (WMU), and a Bachelor’s degree in Information Science and Engineering from Visvesvaraya Institute of Technology, Karnataka, India. He has four years of experience working in the manufacturing industry, specializing in the implementation of lean manufacturing, JIT technologies, and production system, three years of full-stack data science experience in manufacturing and undergraduate and graduate teaching experience. He has also authored in journal and conference proceeding publications in production flow analysis, ergonomics, machine learning, and wireless sensor networks. Currently, his research focus is on developing new machine learning models and AI technologies for manufacturing applications. Nagdev continues to serve as a reviewer of scholarly journals, which includes the Journal of Electrical Engineering, IEEE Transactions on Reliability, and Machine Learning and Applications: An International Journal. He has also open-sourced all his projects, including various R-packages on GitHub.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2020/01/21/meeting-announcement-2020-02.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2020/01/21/meeting-announcement-2020-02.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING CANCELLED: January 2020</title>
+        <description>&lt;p&gt;&lt;em&gt;Updated 2020-01-21&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We apologize for the late notice. However, due to an error in coordinating, the
+January meeting scheduled for Tuesday, 2020-01-21 has been &lt;strong&gt;rescheduled&lt;/strong&gt; for
+Tuesday, 2020-02-18. We are sorry for the confusion.&lt;/p&gt;
+
+&lt;p&gt;The room is still available to our group. So if people want to get together to
+discuss R or work on some data together, we can still have an informal meeting.
+If you are interested, please reply on the Forum so that others are sure to attend.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, we look forward to seeing you all in February!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2020/01/14/meeting-announcement-2020-01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2020/01/14/meeting-announcement-2020-01.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: April 2019</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;April 16, 2019&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 225E&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Parking in DeVos ramp - Tell attendant you’re with WMRUG&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6694818617298!2d-85.68195459790934!3d42.96416909777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU3JzUwLjMiTiA4NcKwNDAnNDcuOSJX!5e0!3m2!1sen!2sus!4v1521903747307&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;presentations&quot;&gt;Presentations&lt;/h3&gt;
+
+&lt;h4 id=&quot;graph-and-workflow-plotting-with-r&quot;&gt;&lt;em&gt;Graph and workflow plotting with R&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;By &lt;a href=&quot;http://dnedveck.com&quot;&gt;Derek Nedveck&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Over at my place of employment, we’ve been working on defining our process / workflow. Part of this work is creating a visual representation of our workflow. Currently the visualization is done in Visio (or some other gross, non-scriptable program), but I figured this would be better suited to automated means, especially when I found out that our dept was already using something called a &lt;a href=&quot;https://en.wikipedia.org/wiki/Responsibility_assignment_matrix&quot;&gt;RACI table&lt;/a&gt;. So this is my excuse to take a naive dive into workflow plotting.&lt;/p&gt;
+
+&lt;p&gt;I’m likely going to be getting into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grid&lt;/code&gt; graphics engine, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DiagrammeR&lt;/code&gt; … or not, the only thing that’s for sure is that I’ll have gifs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media1.tenor.com/images/7bdb6c810161d825e50fb0c3fd7fa283/tenor.gif&quot; alt=&quot;dive in!&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 16 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2019/04/16/meeting-announcement-2019-04.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2019/04/16/meeting-announcement-2019-04.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: March 2019</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;March 19, 2019&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 225E&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Parking in DeVos ramp - Tell attendant you’re with WMRUG&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6694818617298!2d-85.68195459790934!3d42.96416909777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU3JzUwLjMiTiA4NcKwNDAnNDcuOSJX!5e0!3m2!1sen!2sus!4v1521903747307&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;presentations&quot;&gt;Presentations&lt;/h3&gt;
+
+&lt;h4 id=&quot;tidy-modeling-with-modelr-and-broom&quot;&gt;&lt;em&gt;Tidy Modeling with modelr and broom&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;By Dr. David Zeitler&lt;/p&gt;
+
+&lt;p&gt;We will work our way through the modeling chapters of ‘R for Data Science’, looking at how to construct and work with statistical models in a tidy fashion.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 19 Mar 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/meeting/2019/03/19/meeting-announcement-2019-03.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2019/03/19/meeting-announcement-2019-03.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: February 2019</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;February 19, 2019&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 225E&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[Parking in DeVos ramp - Tell attendant your with WMRUG&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6694818617298!2d-85.68195459790934!3d42.96416909777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU3JzUwLjMiTiA4NcKwNDAnNDcuOSJX!5e0!3m2!1sen!2sus!4v1521903747307&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;presentations&quot;&gt;Presentations&lt;/h3&gt;
+
+&lt;h4 id=&quot;open-meeting&quot;&gt;&lt;em&gt;Open meeting&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;The planned talk fell through, so we will have an open discussion. If there’s enough interest we might dive into a chapter of Hadley’s R for Data Science.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Feb 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2019/02/19/meeting-announcement-2019-02.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2019/02/19/meeting-announcement-2019-02.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: December 2018</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;December 18, 2018&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;–Canceled–&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;–Canceled–&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;december-meeting-is-canceled&quot;&gt;December meeting is canceled.&lt;/h3&gt;
+
+&lt;p&gt;Watch for a January meeting on 1/15/2019.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2018/11/18/meeting-announcement-2018-12.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2018/11/18/meeting-announcement-2018-12.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>MEETING ANNOUNCEMENT: November 2018</title>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Meeting Details&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;November 20, 2018&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18:00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DeVos 121E&lt;br /&gt;Grand Valley State University: Pew Campus&lt;br /&gt;401 Fulton St W, Grand Rapids, MI 49504&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Parking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.dropbox.com/s/qc6hriqhurijt2c/West%20Michigan%20R%20Users%2011.20.2018.pdf?dl=0&quot;&gt;Parking in DeVos lot/ramp&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6694818617298!2d-85.68195459790934!3d42.96416909777801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDU3JzUwLjMiTiA4NcKwNDAnNDcuOSJX!5e0!3m2!1sen!2sus!4v1521903747307&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;presentations&quot;&gt;Presentations&lt;/h3&gt;
+
+&lt;h4 id=&quot;iteration-will-it-go-round-in-circles&quot;&gt;&lt;em&gt;Iteration: Will it go round in circles?&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;by Dr. David Zeitler&lt;/p&gt;
+
+&lt;p&gt;Long time R users know that we never use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt; loops except as a last resort. Most of us have learned to use and create vectorized code and (rarely) use the powerful built in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apply&lt;/code&gt; iterator functions. These are equivalents of the container class iterator functions that have made C++, Java, Python and other languages much more robust. They are elegant and obtuse, making their use difficult at best. (I got a song that ain’t got no melody…) The introduction of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;purrr&lt;/code&gt; package from the team at RStudio makes those &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apply&lt;/code&gt; functions clearer and easier to use. (Apologies to Billy Preston!)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/meeting/2018/11/14/meeting-announcement-2018-11.html</link>
+        <guid isPermaLink="true">http://localhost:4000/meeting/2018/11/14/meeting-announcement-2018-11.html</guid>
+        
+        
+        <category>meeting</category>
+        
+      </item>
+    
+      <item>
+        <title>WMRUG is moving!</title>
+        <description>&lt;p&gt;That’s right, WMRUG is moving its digital space! We are transitioning away from Meetup.com. Meanwhile, we will be leveraging other familiar platforms, like our blog and forum.&lt;/p&gt;
+
+&lt;p&gt;We hope this move will give us more flexibility to provide you with top-grade R-related content, while keeping our costs at a minimum.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-opportunities&quot;&gt;New Opportunities&lt;/h2&gt;
+
+&lt;p&gt;This format change presents an opportunity to extend our concept of WMRUG membership. In addition to our monthly meetings, which will continue uninterrupted, expanding our forum and blog means that the meeting doesn’t have to end at 8:00pm every third Tuesday of the month. If you have some cool R stuff you want to share with the group, just post it up on the forum! If you want to follow up a talk with a cool article or code snippet, post that too! Keep the conversation going!&lt;/p&gt;
+
+&lt;h2 id=&quot;q-and-a&quot;&gt;Q and A&lt;/h2&gt;
+
+&lt;p&gt;We know that this change might be bumpy at first. We have prepared some questions and answers that should hopefully answer all of your questions. If you have any additional questions, you can always contact us at &lt;a href=&quot;mailto:WestMichiganRUserGroup@googlegroups.com?subject=Transition&quot;&gt;WestMichiganRUserGroup@googlegroups.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-stay-involved&quot;&gt;How do I stay involved?&lt;/h3&gt;
+
+&lt;p&gt;The best way to stay involved is to keep coming to our monthly meetings. You will always be able to see the next meeting at the &lt;a href=&quot;/upcoming/&quot;&gt;Upcoming Events&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;In addition, we encourage you to join our &lt;a href=&quot;/forum/&quot;&gt;Google Groups forum&lt;/a&gt;. We will be using that platform to serve up announcements and other useful group info. The link to the forum is in the top navbar.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-will-i-know-about-meetings&quot;&gt;How will I know about meetings?&lt;/h3&gt;
+
+&lt;p&gt;You can see all the details on upcoming talks in the &lt;a href=&quot;/upcoming/&quot;&gt;Upcoming Events&lt;/a&gt; page. The link is available on the top right as well.&lt;/p&gt;
+
+&lt;p&gt;The best way to keep in touch is to join the forum. We will keep you posted on all the current events there.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-there-a-way-to-automatically-get-content-from-wmrug&quot;&gt;Is there a way to automatically get content from WMRUG?&lt;/h3&gt;
+
+&lt;p&gt;You can subscribe to our &lt;a href=&quot;/feed.xml&quot;&gt;RSS feed&lt;/a&gt; to keep up on all the latest blog posts by the WMRUG team. You can expect to find major announcements and meeting summaries posted there about every month or so.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-words&quot;&gt;Final words&lt;/h2&gt;
+
+&lt;p&gt;In almost three years since WMRUG’s inaugural meeting, we have had some great talks, made a few friends, had some good conversations, and even helped a couple of members find a job. Looking ahead at the next three years, we see a bright future for WMRUG. We will contintue to meet and search for great speakers as long as people keep coming to our meetings!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Thank you,&lt;/p&gt;
+
+&lt;p&gt;The WMRUG organizers&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Nov 2018 20:49:00 -0500</pubDate>
+        <link>http://localhost:4000/update/2018/11/13/moving.html</link>
+        <guid isPermaLink="true">http://localhost:4000/update/2018/11/13/moving.html</guid>
+        
         
         <category>update</category>
         

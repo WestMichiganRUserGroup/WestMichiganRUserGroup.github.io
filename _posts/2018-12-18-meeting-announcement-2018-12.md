@@ -3,7 +3,7 @@ layout: post
 title:  "MEETING ANNOUNCEMENT: December 2018"
 date:   2018-11-18
 author: The WMRUG organizers
-categories: jekyll update
+categories: meeting
 ---
 
 | Meeting Details          ||

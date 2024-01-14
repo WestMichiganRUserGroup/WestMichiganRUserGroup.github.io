@@ -3,7 +3,7 @@ layout: post
 title: "Migrating CRAN Packages after R Upgrades"
 date: 2020-08-12
 author: Paul Egeler, M.S.
-categories: jekyll update
+categories: article
 ---
 
 ## Background
@@ -13,7 +13,7 @@ This blog post is a supplement to the West Michigan R User Group
 
 ## Introduction
 
-You may have noticed that sometimes after upgrading to a new version of 
+You may have noticed that sometimes after upgrading to a new version of
 [R](https://cran.r-project.org/), you need to install all of your packages
 again. This happens because the new install of R can't find the location of the
 old packages. Even if it could, it would still be a good idea to rebuild all of
@@ -34,10 +34,10 @@ although it has its flaws.
 
 Since the majority of the packages that I use are from CRAN, I have written an R
 script that goes through a library location to identify and install CRAN packages
-while telling me which packages I will need to install from elsewhere (_e.g._, 
+while telling me which packages I will need to install from elsewhere (_e.g._,
 [Bioconductor](https://www.bioconductor.org/),
-[Omegahat](http://www.omegahat.net/), 
-[github](https://github.com/SpectrumHealthResearch), 
+[Omegahat](http://www.omegahat.net/),
+[github](https://github.com/SpectrumHealthResearch),
 internal and personal packages).
 
 I still install non-CRAN pacakges manually, but it reduces the number of
@@ -81,15 +81,15 @@ I get one or two prompts and then package installation commences.
 
 ## Alternative Approaches
 
-The internet is full of 
+The internet is full of
 [articles](https://shiny.rstudio.com/articles/upgrade-R.html),
 [blog posts](https://www.r-bloggers.com/automated-re-install-of-packages-for-r-3-0/),
 [Stack Overflow answers](https://stackoverflow.com/questions/1401904/painless-way-to-install-a-new-version-of-r),
 and [forum posts](https://www.reddit.com/r/rstats/comments/67a9dh/how_do_you_migrate_your_packages_after_an_update/)
 on the subject.
 
-A very popular answer seems to be to copy all packages from the old library 
-directory to the new one and then run 
+A very popular answer seems to be to copy all packages from the old library
+directory to the new one and then run
 `update.packages(ask = FALSE, checkBuilt = TRUE)`
 (note the `checkBuilt` parameter, which will cause the function to
 upgrade packages built under a different version). This seems like a very
@@ -114,7 +114,7 @@ metapackage that you probably already know is
 [`tidyverse`](https://cran.r-project.org/package=tidyverse). So why not a
 metapackage for personal use? Or even metapackages for specific use-cases?
 
-With the 
+With the
 [`Remotes` field](https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html)
 in a package _DESCRIPTION_ file, even packages from non-standard sources can be
 installed automatically with [`devtools`](https://cran.r-project.org/package=devtools).

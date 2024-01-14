@@ -3,7 +3,7 @@ layout: post
 title:  "MEETING ANNOUNCEMENT: May 2020"
 date:   2020-05-28
 author: The WMRUG organizers
-categories: jekyll update
+categories: meeting
 ---
 
 | Meeting Details           ||

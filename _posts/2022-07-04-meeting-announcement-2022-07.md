@@ -3,7 +3,7 @@ layout: post
 title:  "MEETING ANNOUNCEMENT: July 2022 w links to materials"
 date:   2022-07-04
 author: The WMRUG organizers
-categories: jekyll update
+categories: meeting
 ---
 
 | Meeting Details           ||

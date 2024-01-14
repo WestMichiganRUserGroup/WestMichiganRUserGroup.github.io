@@ -3,7 +3,7 @@ layout: post
 title:  "MEETING ANNOUNCEMENT: February 2019"
 date:   2019-02-19
 author: The WMRUG organizers
-categories: jekyll update
+categories: meeting
 ---
 
 | Meeting Details          ||

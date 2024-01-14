@@ -3,7 +3,7 @@ layout: post
 title:  "Virtual Meetings"
 date:   2020-03-15
 author: The WMRUG organizers
-categories: jekyll update
+categories: update
 ---
 
 Due to the emerging public health concern regarding COVID-19, we will be

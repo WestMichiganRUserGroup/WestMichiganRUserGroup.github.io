@@ -3,7 +3,7 @@ layout: post
 title:  "MEETING ANNOUNCEMENT: September 2022"
 date:   2022-09-07
 author: The WMRUG organizers
-categories: jekyll update
+categories: meeting
 ---
 
 | Meeting Details           ||
